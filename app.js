@@ -10,7 +10,7 @@ var connectToDatabase = require('./config/db');
 
 var app = express();
 
-const port = 3002
+const port = 3000
 const uri = 'mongodb+srv://admin:GBxMIni3B2r13jcq@louisvuitton.h0htcgr.mongodb.net/'; // url of mongodb
 const store = new MongoDBStore({
     uri: uri,
